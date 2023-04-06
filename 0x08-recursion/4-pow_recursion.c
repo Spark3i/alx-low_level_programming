@@ -3,7 +3,7 @@
   * _pow_recursion- functions that returns the value of x^y
   *@x: int
   *@y: int
-  *return: x^y when succesful, otherwise return 0
+  *Return: x^y when succesful, otherwise return 0
   */
 int _pow_recursion(int x, int y)
 {
