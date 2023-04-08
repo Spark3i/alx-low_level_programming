@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  *_main- code to print name of program
+  *main- code to print name of program
   *@argc: counts the number of variable
   *@argv: displays the variables in the compiler
   *Return: 1 when succesful
