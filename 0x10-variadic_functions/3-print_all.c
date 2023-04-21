@@ -7,7 +7,7 @@
   */
 void print_all(const char * const format, ...)
 {
-	unsigned int i = 0;
+	int i = 0;
 	char *str;
 	char *sep = "";
 	va_list ap;
@@ -32,12 +32,12 @@ void print_all(const char * const format, ...)
 					str = va_arg(ap, char *);
 					if (!str)
 						str = "(nil)";
-					else
-						printf("%s%s", sep, str);
+					printf("%s%s", sep, str);
 					break;
+
 				default:
-				i++;
-				continue;
+					i++;
+					continue;
 			}
 			sep = ", ";
 			i++;
